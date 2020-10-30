@@ -24,9 +24,9 @@ a {
     color: var(--hacker);
 }
 .header {
-    height: 40vh;
+    height: 30vh;
     background: var(--dark) url("images/showcase.jpg") center center/cover no-repeat;
-    filter: brightness(50%);
+    filter: brightness(70%);
 }
 .container {
     display: flex;
