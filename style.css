@@ -37,15 +37,18 @@ a {
 }
 
 table {
-    width: 40%;
+    width: 50%;
     margin: auto;
     text-align: center;
     border-collapse: separate;
     border-spacing: 15px
 }
+@media (max-width: 800px){
+    table { width: 90%}
+}
 td, th {
     border: 1px solid var(--hacker);
-    padding: .1rem;
+    padding: 0rem;
 }
 tr:nth-child(even) {
     background-color: var(--dark);
