@@ -24,9 +24,10 @@ a {
     color: var(--hacker);
 }
 .header {
-    height: 30vh;
+    height: 20vh;
     background: var(--dark) url("images/showcase.jpg") center center/cover no-repeat;
     filter: brightness(70%);
+    z-index: 0;
 }
 .container {
     display: flex;
@@ -35,7 +36,6 @@ a {
     height: 100%;
     padding: 1rem 2.5rem;
 }
-
 table {
     width: 50%;
     margin: auto;
@@ -58,20 +58,27 @@ tr:hover {
     transition: .5s ease;
 }
 footer {
-    height: 5rem;
+    height: 1rem;
     background: var(--black);
     text-align: right;
 }
 
 @media(min-width: 1200px){
-    h1 { font-size: 3rem;}
+    h2 { font-size: 3rem;}
+    .header { height: 30vh;}
 }
 @media(max-width: 800px){
     .container { padding: 0 1rem;}
-    h1 { font-size: 1.6rem;}
+    .header {padding: 1rem;}
+    h2 { font-size: 1.6rem;}
 }
 @media(max-width: 500px){
     h1 {font-size: 1.5rem;}
-    h2 {font-size: 1.2rem;}
-    .header { height: 42vh; }
+    h2 {font-size: 1rem;}
+    
 }
+@media(max-height: 350px){ .not_hacker {display: none;}}
+@media(max-height: 660px){ .header { height: 31vh;}}
+@media(min-height: 730px){ .main { padding: 1.5rem 1.5rem;}}
+@media(min-height: 1000px){ .main { padding: 8rem 2rem;}}
+@media(min-height: 1200px){ .main { padding-bottom: 23rem;}}
