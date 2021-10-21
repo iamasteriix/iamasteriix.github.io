@@ -54,6 +54,8 @@ export default function Showcase(){
                     </tr>
                 </table>
             </div>
+
+            <div className="showcase__fade-bottom"></div>
         </section>
     );
 }
