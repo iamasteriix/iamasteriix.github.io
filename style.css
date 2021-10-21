@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Rajdhani&display=swap");
+@import url();
+:root {
+    --black: #000;
+    --white: #fff;
+    --navy: #090979;
+    --dark: #333;
+    --hacker: #0c0;
+    --forest: #003d06;
+    background: #000;
+}
+body{
+    overflow-x: hidden;
+    color: var(--hacker);
+    font-family: "Rajdhani", sans-serif;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 24%, rgba(4,4,22,0.8148635308615634) 100%, rgba(9,9,121,1) 100%);
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Orbitron", sans-serif;
+}
+h1 { font-size: 2rem;}
+a {
+    text-decoration: none;
+    color: var(--hacker);
+}
+.header {
+    height: 20vh;
+    background: var(--dark) url("images/showcase.jpg") center center/cover no-repeat;
+    filter: brightness(70%);
+    z-index: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 1rem 2.5rem;
+}
+table {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 15px
+}
+@media (max-width: 800px){
+    table { width: 90%}
+}
+td, th {
+    border: 1px solid var(--hacker);
+    padding: 0rem;
+}
+tr:nth-child(even) {
+    background-color: var(--dark);
+}
+tr:hover {
+    background: var(--forest);
+    transition: .5s ease;
+}
+footer {
+    height: 1rem;
+    background: var(--black);
+    text-align: right;
+}
+
+@media(min-width: 1200px){
+    h2 { font-size: 3rem;}
+    .header { height: 30vh;}
+}
+@media(max-width: 800px){
+    .container { padding: 0 1rem;}
+    .header {padding: 1rem;}
+    h2 { font-size: 1.6rem;}
+}
+@media(max-width: 500px){
+    h1 {font-size: 1.5rem;}
+    h2 {font-size: 1rem;}
+    
+}
+@media(max-height: 350px){ .not_hacker {display: none;}}
+@media(max-height: 660px){ .header { height: 31vh;}}
+@media(min-height: 730px){ .main { padding: 1.5rem 1.5rem;}}
+@media(min-height: 1000px){ .main { padding: 8rem 2rem;}}
+@media(min-height: 1200px){ .main { padding-bottom: 23rem;}}
