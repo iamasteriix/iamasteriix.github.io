@@ -43,6 +43,7 @@ body {
   height: 100vh;
   width: 100%;
   margin: 0;
+  position: relative;
 }
 .intro {
   font-weight: 200;
@@ -90,8 +91,10 @@ tr:hover {
 .showcase__fade-bottom {
   height: 10rem;
   background-image: linear-gradient(182deg, transparent, var(--bg), var(--bg) 80%);
-  margin-top: 25vh;
+  margin: auto 0 -5rem 0;
   box-shadow: none;
+  position: absolute;
+  bottom: 0;
 }
 
 /* ==================== BLOG ======================= */
@@ -101,12 +104,18 @@ tr:hover {
 }
 .blog_posts {
   display: flex;
-  flex-direction: row;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 5px;
+}
+.blog_posts::-webkit-scrollbar {
+  display: none;
 }
 .blog_post {
   height: 20rem;
-  width: 15rem;
-  margin: 10px;
+  width: 30%;
+  max-width: 15rem;
+  margin: 3px;
   display: inline-block;
   background-size: cover;
   background-position: center;
@@ -120,8 +129,8 @@ tr:hover {
 }
 .blog_post__overlay {
   background: var(--dark3-overlay);
-  width: 98%;
-  height: 99%;
+  width: 99%;
+  height: 100%;
   padding: 1%;
   display: flex;
   justify-content: center;
@@ -129,6 +138,15 @@ tr:hover {
 }
 .blog_title {
   color: var(--text-color);
+}
+@media(max-width: 700px){
+  .blog_post {
+    height: 15rem;
+  }
+  .blog_title {
+    font-size: .8rem;
+    margin: 6px;
+  }
 }
 
 

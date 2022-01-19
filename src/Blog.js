@@ -10,7 +10,7 @@ export default function Blog({section_title, fetchBlog}){
                     fetchBlog.map(item =>
                         <div
                             className="blog_post"
-                                style={{ backgroundImage: `url(${item.image})` }}>
+                            style={{ backgroundImage: `url(${item.image})` }}>
                                 <a href={item.link}>
                                     <div className="blog_post__overlay">
                                         <p className="blog_title">{item.title}</p>

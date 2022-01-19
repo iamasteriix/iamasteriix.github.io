@@ -1,5 +1,5 @@
 const blogger = [
-    {   image: `https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2018/02/0/0/Uber20Logo20RTR20FBN-2.jpg?ve=1&tl=1`,
+    {   image: `https://blogger.googleusercontent.com/img/a/AVvXsEi9sxUS201sirOtfS4IY2q-fWrVC54E3BOksUNcLf1rTJNbvWvl-74yomwSX_x_LP-mzSeQmM3SZB1HJQv8Sb_85sx9vWQXDa7a6KVURM7cH__GS5AJWeH7-xLQ73E5uYA066KgGu3Ax70Zhvg7eGFPSxq4hMl6aHYXe92cmLk8lCwiGBD2LEI5zcJxxw=w536-h288`,
         title: " Oversimplified – To my friends on how and why a multibillion-dollar business is always bleeding money",
         link: `https://www.vanillalatte.page/2021/01/oversimplified-to-my-friends-on-how-and.html`
     },
