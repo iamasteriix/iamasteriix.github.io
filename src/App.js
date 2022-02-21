@@ -1,15 +1,14 @@
 import React from "react";
 import "./App.css";
-import Showcase from "./Showcase.js";
-import Blog from "./Blog.js";
+import Showcase from "./Showcase";
+import Info from "./Info";
 import Footer from "./Footer.js"
-import requests from "./requests";
 
 function App(){
   return (
     <div className="App">
       <Showcase/>
-      <Blog section_title="Blog" fetchBlog={requests.blogs}/>
+      <Info/>
       <Footer/>
     </div>
   )

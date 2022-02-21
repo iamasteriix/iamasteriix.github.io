@@ -37,21 +37,23 @@ export default function Showcase(){
 
             <div className="tech_profiles">
                 <table>
-                    <tr>
-                        <td><h5><a href="http://github.com/ceejay-el"> GitHub </a></h5></td>
-                    </tr>
-                    <tr>
-                        <td><h5><a href="https://dev.azure.com/juniorchuck7"> Azure DevOps </a></h5></td>
-                    </tr>
-                    <tr>
-                        <td><h5><a href="https://www.hackerrank.com/iamasteriix"> HackerRank </a></h5></td>
-                    </tr>
-                    <tr>
-                        <td><h5><a href="https://www.kaggle.com/iamasteriix"> Kaggle </a></h5></td>
-                    </tr>
-                    <tr>
-                        <td><h5><a href="http://immaculatefoundation.org"> the immaculate foundation </a></h5></td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td><h5><a href="http://github.com/ceejay-el"> GitHub </a></h5></td>
+                        </tr>
+                        <tr>
+                            <td><h5><a href="https://dev.azure.com/juniorchuck7"> Azure DevOps </a></h5></td>
+                        </tr>
+                        <tr>
+                            <td><h5><a href="https://www.hackerrank.com/iamasteriix"> HackerRank </a></h5></td>
+                        </tr>
+                        <tr>
+                            <td><h5><a href="https://www.kaggle.com/iamasteriix"> Kaggle </a></h5></td>
+                        </tr>
+                        <tr>
+                            <td><h5><a href="http://immaculatefoundation.org"> the immaculate foundation </a></h5></td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
 

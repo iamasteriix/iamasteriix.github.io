@@ -7,6 +7,7 @@
   --bg: #000033;
   --bg-accent: #000080;
   --text-color: #dadce1;
+  --text-hover: rgba(0, 61, 6, .5);
   --border: 1px solid #474a4d;
   --color: #20c20e;
   --hacker: #00cc00;
@@ -15,6 +16,7 @@
   --white: #fff;
   --navy: #090979;
   --dark: #333;
+  --cyan: #0ff;
   --dark1-overlay: rgba(4, 4, 22, .6);
   --dark2-overlay: rgba(4, 4, 22, .8);
   --dark3-overlay: rgba(4, 4, 22, .5);
@@ -36,7 +38,7 @@ body {
 
 /* ==================== SHOWCASE ======================= */
 .showcase {
-  background-image: url("./showcase.jpg");
+  background-image: url("./images/showcase.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -97,58 +99,64 @@ tr:hover {
   bottom: 0;
 }
 
-/* ==================== BLOG ======================= */
-.blog {
-  margin: 3rem 0;
+/* ==================== INFO ======================= */
+.info_section {
+  margin: 3rem;
   padding: 2%;
-}
-.blog_posts {
   display: flex;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  padding: 5px;
-}
-.blog_posts::-webkit-scrollbar {
-  display: none;
-}
-.blog_post {
-  height: 20rem;
-  width: 30%;
-  max-width: 15rem;
-  margin: 3px;
-  display: inline-block;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: relative;
-  cursor: pointer;
-  text-decoration: none;
-}
-.blog_post a {
-  text-decoration: none;
-}
-.blog_post__overlay {
-  background: var(--dark3-overlay);
-  width: 99%;
-  height: 100%;
-  padding: 1%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.blog_title {
-  color: var(--text-color);
-}
-@media(max-width: 700px){
-  .blog_post {
-    height: 15rem;
-  }
-  .blog_title {
-    font-size: .8rem;
-    margin: 6px;
-  }
+  flex-direction: row;
+  justify-content: space-between;
 }
 
+/* ==================== PROJECTS =================== */
+.projects_section {
+  width: 33%;
+  padding: 1rem;
+}
+
+/* ==================== BLOG ======================= */
+.blogs_section {
+  width: 33%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.blog {
+  padding: .05rem;
+}
+.blog a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  vertical-align: middle;
+  text-decoration: none;
+  color: var(--text-color);
+  padding: .3rem;
+}
+.blog a:hover {
+  color: var(--cyan);
+  background-color: var(--text-hover);
+  transition: background-color 500ms ease;
+}
+.blog_img {
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  margin: auto 1rem auto 0;
+}
+.blog_img img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  min-width: 3.7rem;
+  min-height: 3.1rem;
+}
+
+/* =================== HIGHLIGHTS ======= */
+.highlights_section {
+  width: 33%;
+  padding: 1rem;
+}
 
 /* ==================== FOOTER ======================= */
 .footer {

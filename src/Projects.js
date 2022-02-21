@@ -3,8 +3,8 @@ import "./App.css";
 
 export default function Projects(){
     return (
-        <section className="Projects">
+        <div className="projects_section">
             <h2>Projects</h2>
-        </section>
-    )
+        </div>
+    );
 }
