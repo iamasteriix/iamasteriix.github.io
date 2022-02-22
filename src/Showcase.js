@@ -45,7 +45,7 @@ export default function Showcase(){
                             <td><h5><a href="https://dev.azure.com/juniorchuck7"> Azure DevOps </a></h5></td>
                         </tr>
                         <tr>
-                            <td><h5><a href="https://www.hackerrank.com/iamasteriix"> HackerRank </a></h5></td>
+                            <td><h5><a href="https://www.codewars.com/users/iamasteriix"> Codewars </a></h5></td>
                         </tr>
                         <tr>
                             <td><h5><a href="https://www.kaggle.com/iamasteriix"> Kaggle </a></h5></td>
@@ -56,8 +56,6 @@ export default function Showcase(){
                     </tbody>
                 </table>
             </div>
-
-            <div className="showcase__fade-bottom"></div>
         </section>
     );
 }

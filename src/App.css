@@ -7,7 +7,7 @@
   --bg: #000033;
   --bg-accent: #000080;
   --text-color: #dadce1;
-  --text-hover: rgba(0, 61, 6, .5);
+  --text-hover: #113;
   --border: 1px solid #474a4d;
   --color: #20c20e;
   --hacker: #00cc00;
@@ -102,7 +102,14 @@ tr:hover {
 /* ==================== INFO ======================= */
 .info_section {
   margin: 3rem;
-  padding: 2%;
+  padding: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.info_section__pair {
+  width: 70%;
+  margin: 0 0 0 -9px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -110,19 +117,17 @@ tr:hover {
 
 /* ==================== PROJECTS ======== */
 .projects_section {
-  width: 33%;
-  padding: 1rem;
+  width: 49%;
 }
 
 /* ==================== BLOG ============ */
 .blogs_section {
-  width: 33%;
-  padding: 1rem;
+  width: 49%;
   display: flex;
   flex-direction: column;
 }
 .blog {
-  padding: .05rem;
+  margin: .05rem;
 }
 .blog a {
   display: flex;
@@ -131,17 +136,22 @@ tr:hover {
   vertical-align: middle;
   text-decoration: none;
   color: var(--text-color);
-  padding: .3rem;
+  padding: 5px;
+  border-radius: 3px;
 }
 .blog a:hover {
   color: var(--cyan);
   background-color: var(--text-hover);
-  transition: background-color 500ms ease;
+  transition: background-color;
+  transition-duration: 500ms;
+  transition-delay: 0ms;
 }
 .blog_img {
   justify-content: center;
-  width: 4rem;
-  height: 4rem;
+  min-width: 4rem;
+  min-height: 4rem;
+  max-width: 4rem;
+  max-height: 4rem;
   margin: auto 1rem auto 0;
 }
 .blog_img img {
@@ -154,7 +164,7 @@ tr:hover {
 
 /* =================== HIGHLIGHTS ======= */
 .highlights_section {
-  width: 33%;
+  width: 30%;
   padding: 1rem;
 }
 /* =================================================== */
@@ -176,4 +186,27 @@ tr:hover {
 
 
 /* MEDIA ================================================================================= */
-@media (max-screen: 900px){}
+@media (max-width: 864px){
+  /* ==================== INFO ======================= */
+  .info_section {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .highlights_section, .info_section__pair {
+    width: 100%;
+    padding: .5rem;
+  }
+/* =================================================== */
+}
+
+
+@media (max-width: 576px){
+  /* ==================== INFO ======================= */
+  .info_section__pair {
+    flex-direction: column;
+  }
+  .blogs_section, .projects_section {
+    width: 100%;
+  }
+/* =================================================== */
+}
