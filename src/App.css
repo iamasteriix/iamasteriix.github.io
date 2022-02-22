@@ -108,7 +108,7 @@ tr:hover {
   justify-content: space-between;
 }
 .info_section__pair {
-  width: 70%;
+  width: 60%;
   margin: 0 0 0 -9px;
   display: flex;
   flex-direction: row;
@@ -148,24 +148,83 @@ tr:hover {
 }
 .blog_img {
   justify-content: center;
-  min-width: 4rem;
-  min-height: 4rem;
-  max-width: 4rem;
-  max-height: 4rem;
+  min-width: 2rem;
+  min-height: 2rem;
+  max-width: 2rem;
+  max-height: 2rem;
   margin: auto 1rem auto 0;
 }
 .blog_img img {
   display: block;
   max-width: 100%;
   height: auto;
-  min-width: 3.7rem;
-  min-height: 3.1rem;
+  min-width: 1.9rem;
+  min-height: 1.9rem;
+  border-radius: 1rem;
 }
 
-/* =================== HIGHLIGHTS ======= */
-.highlights_section {
-  width: 30%;
+/* =================== WORK ========================== */
+.experience_section {
+  width: 40%;
   padding: 1rem;
+}
+.experience_container {
+  margin: -3rem 0 0 0;
+  padding: 0;
+}
+.work_timeline {
+  padding: 2px;
+  margin: 3rem 0;
+}
+.work_timeline__success { font-size: 9px; }
+.work_timeline__content time {
+  font-size: .8rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 7px;
+  color: var(--text-color);
+}
+.work_timeline__top {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+.work_timeline__tech-stack, .work_timeline__topics {
+  display: flex;
+  flex-wrap: wrap;
+}
+.work_timeline__tech-stack code {
+  background-color: #333;
+  color: #dadce1;
+  margin: 3px 5px;
+  padding: 2px;
+  border-radius: 8px;
+}
+.work_timeline__content h4 {
+  color: var(--border);
+  margin: 2px;
+}
+.work_timeline__content h5 {
+  margin: 2px;
+  padding: 2px;
+}
+.work_timeline__content h5 a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: .7rem;
+  color: #878787;
+}
+.work_timeline__content p {
+  color: var(--text-color);
+  margin: 2px;
+}
+.work_timeline__topics p {
+  background-color: var(--cyan);
+  color: var(--dark);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: .7rem;
+  margin: 1px 3px;
+  padding: 4px;
+  border-radius: 3px;
 }
 /* =================================================== */
 
@@ -192,7 +251,7 @@ tr:hover {
     flex-direction: column;
     padding: 1rem;
   }
-  .highlights_section, .info_section__pair {
+  .experience_section, .info_section__pair {
     width: 100%;
     padding: .5rem;
   }
@@ -209,4 +268,12 @@ tr:hover {
     width: 100%;
   }
 /* =================================================== */
+}
+
+
+@media (min-width: 1600px){
+  .info_section {
+    width: 90rem;
+    margin: 5rem auto;
+  }
 }
