@@ -93,7 +93,7 @@ const projects = [
         azureDevops: ``
     },
     {
-        title: "cluster with Raspberry Pi.",
+        title: "cluster with Raspberry Pi",
         hasWeb: false,
         isAzure: false,
         canShowDevelopment: false,
@@ -191,7 +191,7 @@ const work = [
         info: "currently building Fava with react-native.",
         tech_stack: ["react-native", "react", "MongoDB", "Tableau", "Postgres", "sql"],
         topics: ["Project Management"],
-        link: `https://planetearthobservatory.org/`,
+        link: `https://ritg.pomona.edu/`,
         project_success: null
     },
     {
