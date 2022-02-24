@@ -7,7 +7,7 @@ export default function Info(){
     return (
         <div className="info_section">
             <Highlights/>
-            <InfoDuo section_title="Perspective" fetchBlog={requests.blogs}/>
+            <InfoDuo fetchBlog={requests.blogs} fetchProjects={requests.projects}/>
         </div>
     );
 }

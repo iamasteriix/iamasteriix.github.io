@@ -21,6 +21,7 @@
   --dark2-overlay: rgba(4, 4, 22, .8);
   --dark3-overlay: rgba(4, 4, 22, .5);
   --onyx: rgba(0, 26, 4, .8);
+  --topics: #0276fd;
 }
 
 html {
@@ -29,6 +30,7 @@ html {
   font-family: "Ubuntu", sans-serif;
   background: var(--bg);
   color: var(--color);
+  font-size: .8rem;
 }
 
 body {
@@ -101,14 +103,14 @@ tr:hover {
 
 /* ==================== INFO ======================= */
 .info_section {
-  margin: 3rem;
+  margin: 7rem 5rem 3rem 5rem;
   padding: 0;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
 }
 .info_section__pair {
-  width: 60%;
+  width: 70%;
   margin: 0 0 0 -9px;
   display: flex;
   flex-direction: row;
@@ -118,6 +120,37 @@ tr:hover {
 /* ==================== PROJECTS ======== */
 .projects_section {
   width: 49%;
+}
+.project_container {
+  padding: 1rem;
+  margin: -3rem -1rem;
+}
+.info_project__content {
+  margin: 1rem .1rem;
+  padding: .5rem;
+  color: var(--text-color);
+  justify-content: flex-start;
+}
+.info_project__content h5, .info_project__content h5 a {
+  font-size: .9rem;
+  color: var(--cyan);
+  width: fit-content; 
+  margin: 3px 0;
+  padding: 5px;
+  border-radius: 5px;
+}
+.info_project__content h5:hover {
+  background-color: var(--forest);
+  cursor: pointer;
+}
+.info_project__content h5 a {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.info_project__content p {
+  margin: 0;
+  padding: 0;
 }
 
 /* ==================== BLOG ============ */
@@ -165,7 +198,7 @@ tr:hover {
 
 /* =================== WORK ========================== */
 .experience_section {
-  width: 40%;
+  width: 30%;
   padding: 1rem;
 }
 .experience_container {
@@ -173,6 +206,7 @@ tr:hover {
   padding: 0;
 }
 .work_timeline {
+  width: 80%;
   padding: 2px;
   margin: 3rem 0;
 }
@@ -193,7 +227,7 @@ tr:hover {
   flex-wrap: wrap;
 }
 .work_timeline__tech-stack code {
-  background-color: #333;
+  background-color: var(--dark);
   color: #dadce1;
   margin: 3px 5px;
   padding: 2px;
@@ -218,10 +252,11 @@ tr:hover {
   margin: 2px;
 }
 .work_timeline__topics p {
-  background-color: var(--cyan);
-  color: var(--dark);
+  background-color: var(--topics);
+  color: lightblue;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: .7rem;
+  font-weight: 700;
   margin: 1px 3px;
   padding: 4px;
   border-radius: 3px;
@@ -249,6 +284,7 @@ tr:hover {
   /* ==================== INFO ======================= */
   .info_section {
     flex-direction: column;
+    margin: 2rem;
     padding: 1rem;
   }
   .experience_section, .info_section__pair {
@@ -260,6 +296,9 @@ tr:hover {
 
 
 @media (max-width: 576px){
+  body {
+    font-size: .9rem;
+  }
   /* ==================== INFO ======================= */
   .info_section__pair {
     flex-direction: column;
