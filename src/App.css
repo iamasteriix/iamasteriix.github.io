@@ -212,17 +212,11 @@ tr:hover {
   padding: 2px;
   margin: 3rem 0;
 }
-.work_timeline__success { font-size: 9px; }
 .work_timeline__content time {
   font-size: .8rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 7px;
   color: var(--text-color);
-}
-.work_timeline__top {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
 }
 .work_timeline__tech-stack, .work_timeline__topics {
   display: flex;

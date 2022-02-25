@@ -30,21 +30,14 @@ function ProfessionalTimeline({ data }) {
     return (
         <div className="work_timeline">
             <div className="work_timeline__content">
-                <div className="work_timeline__top">
-                    <span className="work_timeline__success">
-                        { data.project_success===null ? <p>&#9744;</p>
-                        : data.project_success ? <p>&#9989;</p>
-                        : <p>&#10060;</p> }
-                    </span>
-                    <time>
-                        {data.start_date} - {data.ended ? data.end_date : null}
-                        </time>
-                </div>
+                <time>
+                    {data.start_date} - {data.ended ? data.end_date : null}
+                </time>
                 <h4>{data.role}</h4>
                 <h5>
                     <a href={data.link}>{data.place}</a>
                 </h5>
-                <p>&#8226; {data.info}</p>
+                <p>{data.info}</p>
                 <div className="work_timeline__tech-stack">
                     { data.tech_stack.map(item => <code>{item}</code>) }
                 </div>
