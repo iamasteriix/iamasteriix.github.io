@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6bd9011a.css",
-    "main.js": "/static/js/main.40270909.js",
+    "main.js": "/static/js/main.f9aa7c0b.js",
     "static/js/787.a9959e42.chunk.js": "/static/js/787.a9959e42.chunk.js",
     "static/media/ai-bias.jpg": "/static/media/ai-bias.6da075220f9ea7713500.jpg",
     "static/media/vpn.jpg": "/static/media/vpn.82685e72c5fd8c506b93.jpg",
@@ -9,11 +9,11 @@
     "static/media/uber.png": "/static/media/uber.4d05be57278756f959d2.png",
     "index.html": "/index.html",
     "main.6bd9011a.css.map": "/static/css/main.6bd9011a.css.map",
-    "main.40270909.js.map": "/static/js/main.40270909.js.map",
+    "main.f9aa7c0b.js.map": "/static/js/main.f9aa7c0b.js.map",
     "787.a9959e42.chunk.js.map": "/static/js/787.a9959e42.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6bd9011a.css",
-    "static/js/main.40270909.js"
+    "static/js/main.f9aa7c0b.js"
   ]
 }
