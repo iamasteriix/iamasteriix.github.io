@@ -197,7 +197,7 @@ const work = [
         place: "The Shodor Education Foundation, Inc",
         role: "Full-Stack developer",
         info: "I joined the Software Development branch of the research team to build a content management web interface to be used for cryo-em bio-molecular research. It's very interesting and challenging because this is first time I'm working on a project I didn't build or plan from scratch, but the team has amazing developers.",
-        tech_stack: ["react", "postgres"],
+        tech_stack: ["react", "postgres", "Docker", "nvm"],
         topics: ["database", "front-end", "back-end", "team"],
         link: `https://www.lsi.umich.edu/science/centers-technologies/cryo-electron-microscopy`
     }

@@ -42,7 +42,7 @@ export default function Showcase(){
                             <td><a href="http://github.com/ceejay-el"><h5>GitHub</h5></a></td>
                         </tr>
                         <tr>
-                            <td><a href="https://dev.azure.com/juniorchuck7"><h5>Azure DevOps</h5></a></td>
+                            <td><a href="https://dev.azure.com/iamasteriix-jelly"><h5>Azure DevOps</h5></a></td>
                         </tr>
                         <tr>
                             <td><a href="https://www.codewars.com/users/iamasteriix"><h5>Codewars</h5></a></td>
