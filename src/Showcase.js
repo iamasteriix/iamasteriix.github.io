@@ -39,22 +39,22 @@ export default function Showcase(){
                 <table>
                     <tbody>
                         <tr>
-                            <td><h5><a href="http://github.com/ceejay-el"> GitHub </a></h5></td>
+                            <td><a href="http://github.com/ceejay-el"><h5>GitHub</h5></a></td>
                         </tr>
                         <tr>
-                            <td><h5><a href="https://dev.azure.com/juniorchuck7"> Azure DevOps </a></h5></td>
+                            <td><a href="https://dev.azure.com/juniorchuck7"><h5>Azure DevOps</h5></a></td>
                         </tr>
                         <tr>
-                            <td><h5><a href="https://www.codewars.com/users/iamasteriix"> Codewars </a></h5></td>
+                            <td><a href="https://www.codewars.com/users/iamasteriix"><h5>Codewars</h5></a></td>
                         </tr>
                         <tr>
-                            <td><h5><a href="https://www.kaggle.com/iamasteriix"> Kaggle </a></h5></td>
+                            <td><a href="https://www.kaggle.com/iamasteriix"><h5>Kaggle</h5></a></td>
                         </tr>
                         <tr>
-                            <td><h5><a href="https://stackoverflow.com/users/13224286/ioi">Stack Overflow</a></h5></td>
+                            <td><a href="https://stackoverflow.com/users/13224286/ioi"><h5>Stack Overflow</h5></a></td>
                         </tr>
                         <tr>
-                            <td><h5><a href="http://immaculatefoundation.org"> the immaculate foundation </a></h5></td>
+                            <td><a href="http://immaculatefoundation.org"><h5>the immaculate foundation</h5></a></td>
                         </tr>
                     </tbody>
                 </table>

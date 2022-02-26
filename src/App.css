@@ -93,14 +93,6 @@ tr:hover {
   color: var(--hacker);
   font-size: 1rem;
 }
-.showcase__fade-bottom {
-  height: 10rem;
-  background-image: linear-gradient(182deg, transparent, var(--bg), var(--bg) 80%);
-  margin: auto 0 -5rem 0;
-  box-shadow: none;
-  position: absolute;
-  bottom: 0;
-}
 
 /* ==================== INFO ======================= */
 .info_section {
