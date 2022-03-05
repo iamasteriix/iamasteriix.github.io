@@ -37,7 +37,7 @@ const projects = [
         hasWeb: true,
         isAzure: false,
         canShowDevelopment: true,
-        info: "See what I did there? Anyhoo, this started off as a Hulu clone in 2020, but I'm working on adding a way to pull real video content from some database and managing streaming content across multiple regions. Once that's done, I want to add a recommendation feature using the recommendation engine that I'm building as my semester-long project for my neural networks class.",
+        info: "See what I did there? Anyhoo, this started off as a Hulu clone in 2020, but I'm working on adding a way to pull real video content from some database and managing streaming content on a wide scale. Once that's done, I want to add a recommendation feature using the recommendation engine that I'm building as my semester-long project for my neural networks class.",
         link: `https://cl-hulu.web.app`,
         github: `https://github.com/ceejay-el/cl-hulu`,
         azureDevops: null
@@ -67,7 +67,7 @@ const projects = [
         hasWeb: false,
         isAzure: false,
         canShowDevelopment: false,
-        info: "Tool that shortens URLs. Shorter URLs helps websites rank better in search results, and it's also just easier to type them out.",
+        info: "Website you can use to shortens URLs. Shorter URLs helps websites rank better in search results, and it's also just easier to type them out.",
         link: ``,
         github: ``,
         azureDevops: ``
@@ -76,10 +76,10 @@ const projects = [
         title: "downtime monitoring with reporting and alerts",
         hasWeb: false,
         isAzure: false,
-        canShowDevelopment: false,
+        canShowDevelopment: true,
         info: "Coming up! This one's kinda hard bc I'm not exactly sure where to even start. But isn't that 90% of what being a dev involves?",
         link: ``,
-        github: ``,
+        github: `https://github.com/iamasteriix/downtime-monitoring`,
         azureDevops: ``,
     },
     {
@@ -97,7 +97,7 @@ const projects = [
         hasWeb: false,
         isAzure: false,
         canShowDevelopment: false,
-        info: "With all this Big Data stuff I've been doing this semester, I started to wonder what actually goes into hosting websites on the internet. Coincidentally, a friend I work with told me that he's building an HPC cluster with with Raspberry Pi this semester, so I decided to hop in on the action. The goal of this project is to build a Kubernetes cluster with Raspberry Pi for hosting files and serving them on the internet.",
+        info: "With all this Big Data stuff I've been doing this semester, I started to wonder what actually goes into hosting websites on the internet. Coincidentally, a friend I work with told me that he's building an HPC cluster with Raspberry Pi this semester, so I decided to hop in on the action. The goal of this project is to build a Kubernetes cluster with Raspberry Pi for hosting files and serving them on the internet.",
         link: ``,
         github: null,
         azureDevops: null
@@ -117,7 +117,7 @@ const projects = [
         hasWeb: false,
         isAzure: true,
         canShowDevelopment: false,
-        info: "You know, because why not? In this project, I work with Ethereum to explore how blockchain protocols enable trust and appropriate utility for this technology. I also learn Solidity, which is based on C++, Python and JavaScript, to write smart contracts for the Ethereum blockchain. Ultimately, I want to build a dapp (I really don't like this word, it's so lame!) and connect and deploy stuff to the Ethereum network.",
+        info: "You know, because why not? In this project, I work with Ethereum to explore how blockchain protocols enable trust, and appropriate utility for this technology. I also learn Solidity, which is based on C++, Python and JavaScript, to write smart contracts for the Ethereum blockchain. Ultimately, I want to build a dapp (I really don't like this word, it's so lame!) and connect and deploy stuff to the Ethereum network.",
         link: ``,
         github: null,
         azureDevops: null
@@ -140,7 +140,7 @@ const projects = [
         info: "Scraped Kenya's housing and apartment data from buyrentkenya.com for data analysis based on data that is available online.",
         link: ``,
         github: null,
-        azureDevops: `https://dev.azure.com/juniorchuck7/_git/Kenya-Housing-Data?path=/housing_location_data.ipynb&_a=preview`
+        azureDevops: `https://dev.azure.com/iamasteriix-jelly/_git/Kenya-Housing-Data?path=/housing_location_data.ipynb&_a=preview`
     }
 
 ]
@@ -163,7 +163,7 @@ const work = [
         end_date: "May 2021",
         place: "Pomona College High Performance Computing",
         role: "High Performance Computing Support",
-        info: "I collaborated with the HPC Director to explore HPC best practices. Some of the interesting work I did involved learning Microsoft Azure so I could apply those skills (like knowing how to manage resources and pricing for different services in the cloud platform) to support other offices in our IT department. I also did research in real HPC stuff like Bright Cluster Management, Bare Metal Provisioning tools, and Heterogenous Computing. The Director at the time also introduced me to XSEDE, who I would later work with through the Shodor Education Foundation. This was also my first foray to Linux.",
+        info: "I collaborated with the HPC Director to explore HPC best practices. Some of the interesting work I did involved learning Microsoft Azure so I could apply those skills (like knowing how to manage resources and pricing for different services in the cloud platform) to support other offices in our IT offices. I also did research in real HPC stuff like Bright Cluster Management, Bare Metal Provisioning tools, and Heterogenous Computing. The Director at the time introduced me to XSEDE, who I would later work with through the Shodor Education Foundation. This was also my first foray to Linux.",
         tech_stack: ["bash", "slurm"],
         topics: ["Microsoft Azure", "HPC Carpentry", "Heterogenous Computing", "Bright Cluster Management", "CentOS"],
         link: `https://www.pomona.edu/administration/hpc`
