@@ -42,7 +42,7 @@ export default function Showcase(){
                             <td><a href="http://github.com/iamasteriix"><h5>GitHub</h5></a></td>
                         </tr>
                         <tr>
-                            <td><a href="https://dev.azure.com/iamasteriix-jelly"><h5>Azure DevOps</h5></a></td>
+                            <td><a href="https://dev.azure.com/iamasteriix"><h5>Azure DevOps</h5></a></td>
                         </tr>
                         <tr>
                             <td><a href="https://www.codewars.com/users/iamasteriix"><h5>Codewars</h5></a></td>
@@ -53,9 +53,9 @@ export default function Showcase(){
                         <tr>
                             <td><a href="https://stackoverflow.com/users/13224286/ioi"><h5>Stack Overflow</h5></a></td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                             <td><a href="http://immaculatefoundation.org"><h5>the immaculate foundation</h5></a></td>
-                        </tr>
+                        </tr> */}
                     </tbody>
                 </table>
             </div>
