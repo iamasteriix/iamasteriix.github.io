@@ -23,27 +23,8 @@ const blogger = [
 ]
 
 const projects = [
-    {   title: "bingo-search",
-        hasWeb: true,
-        isAzure: false,
-        canShowDevelopment: true,
-        info: "A play on the search engine, Bing, because I think I'm funny like that. I was using the Bing Web Search API initially, but as an extra challenge I thought I should incorporate the concepts I'm learning from Big Data and implement the search myself. The backend functionality involves downloading all the data from the internet, extracting key information from the html and storing it in a format that can be retrieved in less than 200ms. The frontend is just react sugar.",
-        link: `https://bingo-search.web.app/`,
-        github: `https://github.com/ceejay-el/bingo-search`,
-        azureDevops: null
-    },
     {
-        title: "cl-hulu",
-        hasWeb: true,
-        isAzure: false,
-        canShowDevelopment: true,
-        info: "See what I did there? Anyhoo, this started off as a Hulu clone in 2020, but I'm working on adding a way to pull real video content from some database and managing streaming content on a wide scale. Once that's done, I want to add a recommendation feature using the recommendation engine that I'm building as my semester-long project for my neural networks class.",
-        link: `https://cl-hulu.web.app`,
-        github: `https://github.com/ceejay-el/cl-hulu`,
-        azureDevops: null
-    },
-    {
-        title: "taroteum",
+        title: "JengAI",
         hasWeb: true,
         isAzure: false,
         canShowDevelopment: true,
@@ -61,26 +42,6 @@ const projects = [
         link: `https://angry-turing-f8c139.netlify.app/`,
         github: `https://github.com/ceejay-el/Simon-game`,
         azureDevops: null
-    },
-    {
-        title: "link shortener",
-        hasWeb: false,
-        isAzure: false,
-        canShowDevelopment: false,
-        info: "Website you can use to shortens URLs. Shorter URLs helps websites rank better in search results, and it's also just easier to type them out.",
-        link: ``,
-        github: ``,
-        azureDevops: ``
-    },
-    {
-        title: "downtime monitoring with reporting and alerts",
-        hasWeb: false,
-        isAzure: false,
-        canShowDevelopment: true,
-        info: "Coming up! This one's kinda hard bc I'm not exactly sure where to even start. But isn't that 90% of what being a dev involves?",
-        link: ``,
-        github: `https://github.com/iamasteriix/downtime-monitoring`,
-        azureDevops: ``,
     },
     {
         title: "Spotify ETL",
