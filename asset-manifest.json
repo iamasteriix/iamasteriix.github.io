@@ -1,19 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bd9011a.css",
-    "main.js": "/static/js/main.7450b17e.js",
-    "static/js/787.a9959e42.chunk.js": "/static/js/787.a9959e42.chunk.js",
-    "static/media/ai-bias.jpg": "/static/media/ai-bias.6da075220f9ea7713500.jpg",
-    "static/media/vpn.jpg": "/static/media/vpn.82685e72c5fd8c506b93.jpg",
+    "main.css": "/static/css/main.d5fb0a3a.css",
+    "main.js": "/static/js/main.81e8f0ee.js",
+    "static/js/496.0d1618f7.chunk.js": "/static/js/496.0d1618f7.chunk.js",
     "static/media/showcase.jpg": "/static/media/showcase.1e0ca470644deda0e901.jpg",
-    "static/media/uber.png": "/static/media/uber.4d05be57278756f959d2.png",
     "index.html": "/index.html",
-    "main.6bd9011a.css.map": "/static/css/main.6bd9011a.css.map",
-    "main.7450b17e.js.map": "/static/js/main.7450b17e.js.map",
-    "787.a9959e42.chunk.js.map": "/static/js/787.a9959e42.chunk.js.map"
+    "main.d5fb0a3a.css.map": "/static/css/main.d5fb0a3a.css.map",
+    "main.81e8f0ee.js.map": "/static/js/main.81e8f0ee.js.map",
+    "496.0d1618f7.chunk.js.map": "/static/js/496.0d1618f7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bd9011a.css",
-    "static/js/main.7450b17e.js"
+    "static/css/main.d5fb0a3a.css",
+    "static/js/main.81e8f0ee.js"
   ]
 }
