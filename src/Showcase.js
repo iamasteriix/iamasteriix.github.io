@@ -42,6 +42,9 @@ export default function Showcase(){
                             <td><a href="http://github.com/iamasteriix"><h5>GitHub</h5></a></td>
                         </tr>
                         <tr>
+                            <td><a href="https://www.vanillalatte.page"><h5>Vanilla Latte</h5></a></td>
+                        </tr>
+                        <tr>
                             <td><a href="https://dev.azure.com/iamasteriix"><h5>Azure DevOps</h5></a></td>
                         </tr>
                         <tr>
