@@ -54,7 +54,7 @@ export default function Showcase(){
                             <td><a href="https://www.kaggle.com/iamasteriix"><h5>Kaggle</h5></a></td>
                         </tr>
                         <tr>
-                            <td><a href="https://stackoverflow.com/users/13224286/ioi"><h5>Stack Overflow</h5></a></td>
+                            <td><a href="https://stackoverflow.com/users/13224286/iix"><h5>Stack Overflow</h5></a></td>
                         </tr>
                         {/* <tr>
                             <td><a href="http://immaculatefoundation.org"><h5>the immaculate foundation</h5></a></td>
